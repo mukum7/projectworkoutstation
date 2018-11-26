@@ -1,0 +1,110 @@
+/*
+ Theme Name:   Workoutstation
+ Theme URI:    http://gittechnician.com/workoutstation/
+ Description:  Workoutstation theme
+ Author:       mukum	
+ Author URI:   http://gittechnician.com
+ Template:     
+ Version:      1.0.0
+ License:      
+ License URI:  
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  workoutstation
+*/
+
+
+html {
+    margin-top: 0 !important;
+}
+
+.fixed-top {
+    opacity: .7;
+   
+}
+
+
+
+.carousel-caption{
+
+  margin-left: 500px;
+  margin-bottom: 100px;
+
+	font-family: 'Dancing Script', cursive;
+
+
+
+}
+.caption{
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* unvisited link */
+a:link {
+
+    color: white;
+}
+
+/*dropdown-item*/
+a.dropdown-item {
+    color: grey;
+}
+
+/* visited link */
+a:visited {
+    color: grey;
+}
+
+/* mouse over link */
+a:hover {
+    color: blue;
+}
+
+/* selected link */
+a:active {
+    color: black;
+}
+
+
+li{
+
+	font-family: 'Anton', sans-serif;
+}
+
+
+/*navlink text color*/
+a.nav-link {
+    color: white;
+}
+
+
+
+
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
+
+}
+
+.servicetitle {
+    font-family: 'Anton', sans-serif;
+    padding: 120px;
+    color: #717579;
+
+
+}
+
+
+
+section#footer {
+    background-color: #717579;
+}
+
+.row.text-center.text-xs-center.text-sm-center.text-md-center {
+    padding-top: 70px;
+}
+
+

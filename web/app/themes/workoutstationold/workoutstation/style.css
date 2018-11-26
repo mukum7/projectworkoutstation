@@ -1,0 +1,85 @@
+/*
+ Theme Name:   Workoutstation
+ Theme URI:    http://gittechnician.com/workoutstation/
+ Description:  Workoutstation theme
+ Author:       mukum	
+ Author URI:   http://gittechnician.com
+ Template:     
+ Version:      1.0.0
+ License:      
+ License URI:  
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  workoutstation
+*/
+
+
+html {
+    margin-top: 0 !important;
+}
+
+.fixed-top {
+    opacity: .7;
+   
+}
+
+
+
+.carousel-caption{
+
+  margin-left: 500px;
+  margin-bottom: 100px;
+
+	font-family: 'Dancing Script', cursive;
+
+
+
+}
+.caption{
+  font-size: 50px;
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+/* unvisited link */
+a:link {
+
+    color: white;
+}
+
+/* visited link */
+a:visited {
+    color: white;
+}
+
+/* mouse over link */
+a:hover {
+    color: white;
+}
+
+/* selected link */
+a:active {
+    color: white;
+}
+
+
+li{
+
+	font-family: 'Anton', sans-serif;
+}
+
+
+
+
+
+
+.carousel-fade .carousel-item {
+  opacity: 0;
+  transition-duration: .6s;
+  transition-property: opacity;
+
+
+
+
+
+
+
